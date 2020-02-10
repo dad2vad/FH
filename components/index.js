@@ -24,7 +24,9 @@ class Main extends Component {
         <Row>
           <Col lg={6}>
             <UserForm />
-          </Col>
+          </Col>     
+        </Row>
+      <Row>
           <Col lg={6}>
             <Social />
           </Col>
