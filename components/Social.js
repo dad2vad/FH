@@ -13,7 +13,7 @@ const Social = () => {
     <div>
       <Row>
         <Col lg={8}>
-          <Input controlLabel="Facebook" title="social" name="facebook"  onChange={}/>
+          <Input controlLabel="Facebook" title="social" name="facebook" />
 </Col>
         <Col lg={8}>
           <Input controlLabel="Instagram" title="social" name="instagram" />
