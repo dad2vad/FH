@@ -14,6 +14,7 @@ const Social = () => {
       <Row>
         <Col lg={8}>
           <Input controlLabel="Facebook" title="social" name="facebook"  onChange={TO([target.name, e.target.value])}/>
+</Col>
         <Col lg={8}>
           <Input controlLabel="Instagram" title="social" name="instagram" />
         </Col>
