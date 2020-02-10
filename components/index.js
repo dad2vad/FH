@@ -13,7 +13,7 @@ class Main extends Component {
     return (
       <div>
         <Head>
-          <title>Form Handler</title>
+          <title>FORM</title>
           <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"
