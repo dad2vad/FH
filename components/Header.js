@@ -3,9 +3,9 @@ import { Col, Row, Jumbotron } from 'react-bootstrap'
 const Header = () => {
   return (
     <div>
-      <Row style={{ marginTop: '10px' }}>
-        <Col lg={8} lgOffset={2}>
-          <Jumbotron style={{ borderRadius: '15px' }}>
+      <Row style={{ marginTop: '5px' }}>
+        <Col lg={4} lgOffset={2}>
+          <Jumbotron style={{ borderRadius: '5px' }}>
             <h1 style={{ textAlign: 'center' }}>Form Handler</h1>
           </Jumbotron>
         </Col>
