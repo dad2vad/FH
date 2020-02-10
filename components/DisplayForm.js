@@ -9,7 +9,7 @@ class DisplayForm extends Component {
       <div>
         <Row>
           <Col lg={8} lgOffset={2}>
-            <pre>{JSON.stringify(state, null, 2)}</pre>
+            <pre>{JSON.stringify(state, null, 4)}</pre>
           </Col>
         </Row>
       </div>
